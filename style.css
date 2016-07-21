@@ -27,3 +27,66 @@ a:focus,
 .wp-caption-text {
   color: #984B43;
 }
+
+.page-content a,
+.entry-content a,
+.entry-summary a,
+.comment-content a,
+.entry-footer a:hover,
+.entry-footer a:focus,
+.entry-meta a:hover,
+.entry-meta a:focus,
+.index-entry-meta a:hover,
+.index-entry-meta a:focus,
+.comment-navigation a:hover,
+.comment-navigation a:focus,
+.posts-navigation a:hover,
+.posts-navigation a:focus,
+.post-navigation a:hover,
+.post-navigation a:focus,
+.paging-navigation a:hover,
+.paging-navigation a:focus {
+  border-color: #984B43;
+}
+
+.page-content a:hover,
+.page-content a:focus,
+.entry-content a:hover,
+.entry-content a:focus,
+.entry-summary a:hover,
+.entry-summary a:focus,
+.comment-content a:hover,
+.comment-content a:focus {
+  border-bottom: 3px solid #984B43;
+  box-shadow: inset 0 -3px 0 #984B43;
+}
+
+.continue-reading a:hover,
+.continue-reading a:focus,
+.entry-content .continue-reading a:hover,
+.entry-content .continue-reading a:focus {
+    border-color: #E9E9EB;
+    background: hsla(0, 100%, 100%, .1);
+}
+
+@media screen and (min-width: 65em) {
+  .sidebar-right #secondary, .sidebar-left #seconday {
+    background-color: #233237;
+  }
+}
+
+.reply a,
+.comment-form .form-submit input {
+  border-color: #E9E9EB;
+  background-color: #233237;
+  color: #E9E9EB;
+}
+
+.reply a:hover,
+.reply a:focus,
+.comment-form .form-submit input:hover,
+.comment-form .form-submit input:focus {
+  border-color: #E9E9EB;
+  background-color: #E9E9EB;
+  color: #000;
+}
